@@ -1,4 +1,4 @@
 <div class="flex justify-between p-4 items-center bg-red-500 text-white">
-    <div>これはアラートメッセージです。by alert.blade.php</div>
+    <div>{{ $message }}</div>
     <button>x</button>
 </div>
