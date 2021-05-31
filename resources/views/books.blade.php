@@ -1,16 +1,8 @@
-<x-testapp>
+<x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
             {{ __('Books') }}
         </h2>
-    </x-slot>
-
-    <x-slot name="title">
-            Laravel Components
-    </x-slot>
-
-    <x-slot name="sidebar">
-        <p>サイドバーに追加できます。</p>
     </x-slot>
 
     <div class="py-12">
@@ -22,4 +14,4 @@
             </div>
         </div>
     </div>
-</x-testapp>
+</x-app-layout>
