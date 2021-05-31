@@ -22,7 +22,7 @@ Route::get('/dashboard', function () {
 })->middleware(['auth'])->name('dashboard');
 
 Route::get('/books', function () {
-    return view('books');
+    return view('books', ['message' => 'これは「web.php」のメッセージです。']);
 })->middleware(['auth'])->name('books');
 
 
