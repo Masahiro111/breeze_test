@@ -30,7 +30,7 @@
     }
 @endphp
 
-<div class="flex justify-between p-4 items-center bg-red-500 text-white {{ addClass($type) }}">
+<div {{ $attributes->merge(['class'=>"flex justify-between p-4 items-center text-white " . addClass($type) ]) }}>
     <div>{{ $message }}</div>
     <button>x</button>
 </div>
